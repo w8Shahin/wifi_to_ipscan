@@ -1,0 +1,178 @@
+# W8IP-To Router - Requirements
+# Author: W8Team / w8shahin
+# Version: 2.0
+
+# ============================================================================
+# PYTHON VERSION REQUIREMENT
+# ============================================================================
+# Python 3.6 or higher required
+# Tested on: Python 3.6, 3.7, 3.8, 3.9, 3.10, 3.11, 3.12
+
+# ============================================================================
+# BUILT-IN MODULES (NO INSTALLATION NEEDED)
+# ============================================================================
+# All dependencies are built-in Python modules - No pip install required!
+#
+# The following modules are used (all included with Python):
+# - socket          : Network communication
+# - sys             : System-specific parameters
+# - ipaddress       : IP address manipulation
+# - datetime        : Date and time handling
+# - concurrent      : Multi-threading support
+# - threading       : Thread management
+# - time            : Time-related functions
+# - subprocess      : System command execution
+# - re              : Regular expressions
+# - platform        : Platform identification
+# - os              : Operating system interface
+# - itertools       : Iterator functions
+# - urllib          : URL handling (for public IP)
+
+# ============================================================================
+# SYSTEM TOOLS (Platform-specific)
+# ============================================================================
+# These are system-level tools, installed via package manager:
+#
+# Windows:
+#   - ipconfig      : Network configuration (built-in)
+#   - arp           : ARP table access (built-in)
+#   - route         : Routing table (built-in)
+#   - nbtstat       : NetBIOS info (built-in)
+#   - ping          : Network testing (built-in)
+#
+# Linux/Mac:
+#   - ip            : Network configuration (install: iproute2)
+#   - arp           : ARP table access (install: net-tools)
+#   - route         : Routing table (install: net-tools)
+#   - nmblookup     : NetBIOS lookup (install: samba-common-bin)
+#   - ping          : Network testing (built-in)
+#
+# Termux (Android):
+#   - ip            : Network configuration (pkg install iproute2)
+#   - arp           : ARP table (pkg install net-tools)
+#   - ping          : Network testing (built-in)
+
+# ============================================================================
+# INSTALLATION INSTRUCTIONS
+# ============================================================================
+
+# For Termux (Android):
+# --------------------
+# pkg update
+# pkg upgrade
+# pkg install python
+# pkg install git
+# pkg install net-tools
+# pkg install iproute2
+# git clone https://github.com/W8Shahin/W8IP-To-Router-Scanner-Scanner
+# cd W8IP-To-Router-Scanner
+# chmod +x installer.sh
+# ./installer.sh
+
+# For Linux (Debian/Ubuntu):
+# --------------------------
+# sudo apt-get update
+# sudo apt-get install python3 python3-pip
+# sudo apt-get install net-tools iproute2
+# git clone https://github.com/W8Shahin/W8IP-To-Router-Scanner-Scanner
+# cd W8IP-To-Router-Scanner
+# chmod +x installer.sh
+# ./installer.sh
+
+# For Linux (Fedora/CentOS/RHEL):
+# --------------------------------
+# sudo yum install python3 python3-pip
+# sudo yum install net-tools iproute
+# git clone https://github.com/W8Shahin/W8IP-To-Router-Scanner-Scanner
+# cd W8IP-To-Router-Scanner
+# chmod +x installer.sh
+# ./installer.sh
+
+# For macOS:
+# ----------
+# brew install python3
+# git clone https://github.com/W8Shahin/W8IP-To-Router-Scanner-Scanner
+# cd W8IP-To-Router-Scanner
+# chmod +x installer.sh
+# ./installer.sh
+
+# For Windows:
+# ------------
+# 1. Install Python from https://www.python.org/downloads/
+# 2. Install Git from https://git-scm.com/download/win
+# 3. Open Command Prompt or PowerShell:
+#    git clone https://github.com/W8Shahin/W8IP-To-Router-Scanner-Scanner
+#    cd W8IP-To-Router-Scanner
+#    python W8IP-To-Router-Scanner.py
+
+# ============================================================================
+# AUTOMATIC INSTALLATION
+# ============================================================================
+# Use the included install.sh script for automatic setup:
+#
+# chmod +x installer.sh
+# ./install.sh
+#
+# The script will:
+# - Detect your operating system
+# - Check for Python installation
+# - Install Python if missing
+# - Install required system tools
+# - Set up the tool for easy execution
+# - Add to PATH (optional)
+
+# ============================================================================
+# MANUAL VERIFICATION
+# ============================================================================
+# To verify all requirements are met, run:
+#
+# python3 -c "import socket, sys, ipaddress, datetime, concurrent.futures, threading, time, subprocess, re, platform, os, itertools, urllib.request; print('All modules available!')"
+#
+# If no errors appear, you're ready to run W8IP-To Router!
+
+# ============================================================================
+# NO PIP PACKAGES REQUIRED
+# ============================================================================
+# This tool uses ONLY Python's standard library.
+# No external pip packages need to be installed.
+# This makes it lightweight, fast, and easy to deploy anywhere!
+
+# ============================================================================
+# OPTIONAL ENHANCEMENTS
+# ============================================================================
+# These are optional and not required for basic functionality:
+#
+# For enhanced terminal colors (already handled by built-in modules):
+# - colorama>=0.4.4  (Windows only, for ANSI color support - OPTIONAL)
+#
+# Note: The tool works perfectly without any pip packages!
+
+# ============================================================================
+# TROUBLESHOOTING
+# ============================================================================
+# If you encounter "ModuleNotFoundError", ensure you're using Python 3.6+:
+#   python3 --version
+#
+# If you get "command not found" errors for system tools:
+#   - Linux/Mac: Install net-tools and iproute2
+#   - Termux: pkg install net-tools iproute2
+#   - Windows: System tools are built-in
+#
+# For permission errors:
+#   chmod +x W8IP-To-Router-Scanner.py install.sh
+#
+# For network scanning issues:
+#   - Check firewall settings
+#   - Verify network connection
+#   - Ensure correct IP range
+
+# ============================================================================
+# SUPPORT
+# ============================================================================
+# For issues, questions, or contributions:
+# - GitHub Issues: https://github.com/W8Shahin/W8IP-To-Router-Scanner/issues
+# - GitHub Discussions: https://github.com/W8Shahin/W8IP-To-Router-Scanner/discussions
+#
+# Author: W8Team / W8Shahin
+# License: MIT
+# ============================================================================
