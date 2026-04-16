@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # W8IP-To Router - Auto Installation Script
-# Author: W8Team / W8SOJIB
-# GitHub: github.com/W8SOJIB
+# Author: W8Team / W8Shahin
+# GitHub: github.com/W8Shahin
 
 # Colors for output
 RED='\033[0;31m'
@@ -25,8 +25,8 @@ echo "║                                                                      �
 echo "╚══════════════════════════════════════════════════════════════════════╝"
 echo -e "${NC}"
 echo -e "${YELLOW}Version: 2.0 - Ultra Fast Edition${NC}"
-echo -e "${GREEN}Author: W8Team / W8SOJIB${NC}"
-echo -e "${CYAN}GitHub: github.com/W8SOJIB${NC}"
+echo -e "${GREEN}Author: W8Team / W8Shahin${NC}"
+echo -e "${CYAN}GitHub: github.com/W8Shahin${NC}"
 echo ""
 echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
@@ -226,8 +226,8 @@ main() {
     echo -e "  Then enter: 192.168.1.1 to 192.168.1.254"
     echo ""
     echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-    echo -e "${GREEN}Tool by: ${BOLD}W8Team / W8SOJIB${NC}"
-    echo -e "${CYAN}GitHub: github.com/W8SOJIB${NC}"
+    echo -e "${GREEN}Tool by: ${BOLD}W8Team / W8Shahin${NC}"
+    echo -e "${CYAN}GitHub: github.com/W8Shahin${NC}"
     echo -e "${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 }
 
