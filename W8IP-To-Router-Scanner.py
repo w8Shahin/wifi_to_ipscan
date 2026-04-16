@@ -5,7 +5,7 @@ Fast multi-threaded scanner for IP ranges - ports 80 and 8080
 Shows detailed device information including MAC, manufacturer, NetBIOS, etc.
 Supports Windows, Linux, Termux (Android)
 
-Author: W8Team / W8SOJIB
+Author: W8Team / W8Shahin
 Tool: W8IP-To Router
 """
 
@@ -271,8 +271,8 @@ def print_banner():
 ┌──────────────────────────────────────────────────────────────────────┐
 │  {Colors.BOLD}Tool Name:{Colors.ENDC}{Colors.YELLOW}     W8IP-To Router - Advanced IP Scanner                │
 │  {Colors.BOLD}Version:{Colors.ENDC}{Colors.YELLOW}       2.0 - Ultra Fast Edition                            │
-│  {Colors.BOLD}Author:{Colors.ENDC}{Colors.YELLOW}        W8Team / W8SOJIB                                     │
-│  {Colors.BOLD}GitHub:{Colors.ENDC}{Colors.YELLOW}        github.com/W8SOJIB                                    │
+│  {Colors.BOLD}Author:{Colors.ENDC}{Colors.YELLOW}        W8Team / W8Shahin                                     │
+│  {Colors.BOLD}GitHub:{Colors.ENDC}{Colors.YELLOW}        github.com/W8Shahin                                    │
 │  {Colors.BOLD}Features:{Colors.ENDC}{Colors.YELLOW}      Multi-threaded Scanning, Device Detection           │
 │                MAC/Manufacturer Lookup, Router Detection            │
 └──────────────────────────────────────────────────────────────────────┘
@@ -1173,7 +1173,7 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print(f"\n\n{Colors.YELLOW}[!] Scan interrupted by user.{Colors.ENDC}")
         print(f"{Colors.CYAN}{'─' * 70}{Colors.ENDC}")
-        print(f"{Colors.GREEN}Tool: W8IP-To Router by W8Team / W8SOJIB{Colors.ENDC}")
+        print(f"{Colors.GREEN}Tool: W8IP-To Router by W8Team / W8Shahin{Colors.ENDC}")
         print(f"{Colors.CYAN}{'─' * 70}{Colors.ENDC}\n")
         sys.exit(0)
     except Exception as e:
